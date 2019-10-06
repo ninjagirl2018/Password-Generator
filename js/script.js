@@ -71,7 +71,7 @@ function questions(){
        window.alert("Invalid - Password length must be between 8 and 128 characters.")
         questions()
     }
-    document.getElementById("passwordDisplay").innerHTML = passwordFinal;
+    document.getElementById("passwordDisplay").value = passwordFinal;
 }
 
 genButton.addEventListener('click', questions)
