@@ -40,7 +40,7 @@ hr {
     margin-bottom: 25px;
     border: 2px solid #dddddd;
     align-content: center;
-    height: 400px;
+    height: 350px;
     width: 700px;
 }
 
@@ -54,6 +54,7 @@ hr {
 
 .buttons {
     background-color: white;
+    margin-top: 25px;
 }
 
 #genButton {
@@ -75,3 +76,18 @@ hr {
     border: 2px solid #4aaaa5;
     margin-left: 250px;
 }
+
+footer {
+    height:  55px;
+    background-color: #666666;
+    margin-top: 50px;
+    padding-top: 10px;
+    border-top: 8px solid #4aaaa5; 
+    font-size: 10px;
+    width: 100%;
+  }
+  
+  #footer-text {
+    text-align: center;
+    color: #dddddd;
+  }
